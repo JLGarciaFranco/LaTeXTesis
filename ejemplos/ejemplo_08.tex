@@ -1,0 +1,35 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fancyhdr} % Paquete para encabezados y pies de página
+\usepackage{lipsum}  % Para texto de ejemplo (puedes omitirlo)
+
+% Configuración de encabezados y pies
+\pagestyle{fancy}
+\fancyhf{} % Limpia los encabezados y pies
+\fancyhead[L]{UNAM - Escuela Nacional de Ciencias de la Tierra} % Encabezado izquierdo
+\fancyhead[R]{Proyecto de Tesis}          % Encabezado derecho
+\fancyfoot[C]{Página \thepage}            % Pie de página centrado
+
+\begin{document}
+
+% Crear la portada manualmente
+\begin{titlepage}
+    \begin{center}
+        \vspace*{2cm} % Espacio vertical inicial
+        {\Huge\bfseries Impacto del Cambio Climático en Ciclones Tropicales}\\[1cm]
+        {\Large Autor: Nombre del Estudiante}\\[0.5cm]
+        {\large Facultad de Ciencias, UNAM}\\[1cm]
+        {\large \today}
+    \end{center}
+    \vfill % Espacio flexible para alinear verticalmente
+    \begin{center}
+        {\small Documento académico para el curso de Física del Clima}
+    \end{center}
+\end{titlepage}
+
+\section*{Introducción}
+
+Aquí inicia el contenido del documento. \lipsum[1]
+
+\end{document}

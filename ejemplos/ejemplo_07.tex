@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}  % or your preferred language
+\usepackage{csquotes}
+\usepackage[round]{natbib}
+
+ % Your .bib file
+
+\begin{document}
+
+\section{Introducción}
+
+Esta sección ilustra cómo citar con \texttt{natbib} usando 
+y el estilo \texttt{Harvard}.
+
+Cita narrativa: \cite{einstein1905} revolucionó la física.
+
+Cita parentética: \citep{knuth1984} sentó bases importantes 
+en la tipografía digital.
+
+Una manera de entender la electrodinámica es a través de las ecuaciones de Maxwell \citep{einstein1905}. Pero para poder entenderla es necesario usar una buena tipografía, como la que propuso \citet{knuth1984} para el proyecto de \LaTeX \citep{latexproject}.
+
+\section{Conclusión}
+
+Para imprimir la bibliografía con natbib, basta mencionar cómo se llama:
+
+\bibliographystyle{agsm}
+\bibliography{archivo_ejemplo.bib}
+
+
+\end{document}

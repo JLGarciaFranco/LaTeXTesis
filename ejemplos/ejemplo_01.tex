@@ -1,0 +1,53 @@
+\documentclass[12pt,a4paper]{article} % Define el tipo de documento y tamaño de fuente
+
+\usepackage[utf8]{inputenc} % Codificación de caracteres
+\usepackage[spanish]{babel} % Idioma del documento
+\usepackage{graphicx}       % Inserción de gráficos
+
+
+% Comienza el documento
+\begin{document}
+
+\section{Introducción} % Título de una sección
+Este es mi primer documento elaborado en \LaTeX. Con \LaTeX, puedes destacar texto usando \textbf{negritas}, \textit{cursiva} o \underline{subrayado}. 
+
+También puedes organizar información usando listas ordenadas, no ordenadas y anidadas.
+
+\section{Ejemplos de Listas} % Otra sección
+
+\subsection{Lista No Ordenada} % Subsección
+Las listas no ordenadas se crean con el entorno `itemize`:
+\begin{itemize}
+    \item Este es el primer elemento.
+    \item Este es el segundo elemento.
+    \item Puedes incluir tantos elementos como desees.
+\end{itemize}
+
+\subsection{Lista Ordenada} % Subsección
+Las listas ordenadas utilizan el entorno `enumerate`:
+\begin{enumerate}
+    \item Este es el primer elemento de la lista.
+    \item Este es el segundo elemento.
+    \item El formato numérico es automático.
+\end{enumerate}
+
+\subsection{Listas Anidadas} % Subsección
+Puedes combinar listas ordenadas y no ordenadas para crear listas anidadas:
+\begin{enumerate}
+    \item Primer elemento de la lista principal.
+    \begin{itemize}
+        \item Sub-elemento no ordenado.
+        \item Otro sub-elemento.
+    \end{itemize}
+    \item Segundo elemento de la lista principal.
+    \begin{enumerate}
+        \item Sub-elemento ordenado.
+        \item Otro sub-elemento ordenado.
+    \end{enumerate}
+\end{enumerate}
+
+\section{Conclusión} % Última sección
+Aprender \LaTeX es una herramienta \textbf{valiosa} para crear documentos largos como tesis, artículos científicos o reportes técnicos. Además, permite incluir \textit{destacados estilísticos} y estructuras complejas como listas anidadas sin perder consistencia visual.  
+
+\end{document} % Termina el documento
+

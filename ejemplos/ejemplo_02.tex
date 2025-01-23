@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+
+% Paquetes necesarios
+\usepackage{amsmath} % Para ecuaciones avanzadas
+\usepackage{amssymb} % Para símbolos matemáticos
+\usepackage[]{url}
+\usepackage[]{hyperref}
+% Metadatos
+\title{Ejemplo de Uso de Ecuaciones en \LaTeX}
+\author{JLGF}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción a las ecuaciones}
+En este documento exploraremos cómo escribir ecuaciones en \LaTeX{} utilizando diferentes entornos y formatos.
+
+\section{Ecuaciones simples}
+Las ecuaciones matemáticas pueden incluirse usando el entorno matemático en línea con los símbolos `\$\$` o con corchetes \textbackslash[ ... \textbackslash].
+
+\subsection{Uso de \texttt{\$\$}}
+
+Se pueden incluir ecuaciones o variables que formen parte de ecuaciones, utilizando el símbolo de peso para escribir cosas como que la masa $m$ es proporcional a la energía $E$ de tal manera que $m\,\alpha E$.
+Las ecuaciones se centran automáticamente al usar `\$\$`:
+$$ a^2 + b^2 = c^2 $$
+
+\subsection{Uso de \texttt{\textbackslash[ ... \textbackslash]}}
+Otra manera de escribir ecuaciones centradas es con corchetes:
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+
+
+donde notamos el uso de \texttt{\textbackslash frac} para hacer divisiones. 
+
+\section{Entorno \texttt{equation}}
+El entorno `equation` permite etiquetar ecuaciones para referenciarlas posteriormente:
+\begin{equation}
+E = mc^2
+\label{eq:energia}
+\end{equation}
+
+Puedes referenciar esta ecuación como la ecuación \eqref{eq:energia} en el texto. También podemos referenciar a la ecuación con el comando simple \textbf{ref}, e.g., véase la ec. \ref{eq:energia}.
+
+\section{Ecuaciones largas}
+Cuando una ecuación ocupa varias líneas, se puede usar el entorno `multline`:
+\begin{multline}
+f(x) = a_0 + a_1x + a_2x^2 + \dots \\
++ a_nx^n
+\end{multline}
+
+\section{Ecuaciones con integrales}
+Las integrales también se pueden escribir fácilmente:
+\begin{equation}
+\int_{a}^{b} x^2 \, dx = \frac{b^3}{3} - \frac{a^3}{3}
+\end{equation}
+
+Para integrales dobles o triples:
+\[
+\iint\limits_{\text{área}} x^2 + y^2 \, dA, \quad \iiint\limits_{\text{volumen}} x \, dx \, dy \, dz
+\]
+
+\section{Ecuaciones alineadas}
+El entorno `align` permite alinear ecuaciones relacionadas:
+\begin{align}
+y &= mx + b \label{eq:recta} \\
+z &= ax^2 + bx + c
+\end{align}
+
+Puedes referenciar estas ecuaciones como la ecuación \eqref{eq:recta}.
+
+\section*{Conclusión}
+Este documento ha mostrado cómo trabajar con ecuaciones en \LaTeX{} usando diferentes formatos. Para aprender más sobre ecuaciones y símbolos matemáticos, puedes revisar: \url{https://en.wikibooks.org/wiki/LaTeX/Mathematics}
+
+y para más símbolos:
+
+\url{https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols}
+
+\end{document}

@@ -1,0 +1,175 @@
+% =====================================================
+% Curso de LaTeX (ENCiT)
+% =====================================================
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage[spanish]{babel}
+%\renewcommand{\tablename}{Tabla}
+\usepackage{booktabs} % Para líneas horizontales de mejor calidad
+
+\begin{document}
+
+\section{Curso de \LaTeX: Ejemplo de Tablas Flotantes}
+
+En este documento verás distintos ejemplos de cómo insertar y 
+referenciar tablas en \LaTeX. Observa cómo la posición de las leyendas 
+(\emph{caption}), el uso de distintos \emph{layouts} y los parámetros 
+de flotación (\texttt{[h]}, \texttt{[t]}, \texttt{[b]}, \texttt{[p]}, \texttt{!}, etc.) 
+influyen en el resultado final.
+
+\subsection{Tabla con leyenda debajo (posición preferente \texttt{[ht]})}
+
+En la Tabla~\ref{tab:simple} se muestra un ejemplo sencillo en el que la 
+leyenda se coloca \textbf{debajo} de la tabla.
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{c|c|c}
+    \hline
+    \textbf{Columna 1} & \textbf{Columna 2} & \textbf{Columna 3} \\
+    \hline
+    A & B & C \\
+    D & E & F \\
+    \hline
+    \end{tabular}
+    \caption{Tabla sencilla con caption debajo}
+    \label{tab:simple}
+\end{table}
+
+Como ves, \LaTeX\ decide colocar la tabla cerca de este bloque de texto,
+pero siempre intentando no romper la composición de la página.
+
+\subsection{Tabla con leyenda arriba (forzando \texttt{[h!]})}
+
+La Tabla~\ref{tab:arriba} ilustra cómo poner la leyenda \textbf{encima} 
+de la tabla y además usar \texttt{[h!]} para forzar al máximo que aparezca 
+justo aquí:
+
+\begin{table}[h!]
+    \caption{Leyenda colocada arriba de la tabla}
+    \label{tab:arriba}
+    \centering
+    \begin{tabular}{l r}
+        \toprule
+        \textbf{Producto} & \textbf{Cantidad} \\
+        \midrule
+        Manzanas & 10 \\
+        Naranjas & 5 \\
+        Peras & 12 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Aunque uses \texttt{[h!]}, \LaTeX\ mantiene libertad de mover la tabla
+en caso de que no se ajuste bien a la página.
+
+\subsection{Tabla con layout más elaborado (\texttt{booktabs} y \texttt{multicolumn})}
+
+En la Tabla~\ref{tab:multicol} se muestra un ejemplo con múltiples columnas,
+divisiones claras y el uso de \textbackslash multicolumn para centrar un título
+sobre varias columnas.
+
+\begin{table}[ht]
+    \centering
+    \caption{Tabla con booktabs y \texttt{multicolumn}}
+    \label{tab:multicol}
+    \begin{tabular}{lcc}
+    \toprule
+    \multicolumn{1}{c}{\textbf{Item}} & \textbf{Cantidad} & \textbf{Precio} \\
+    \midrule
+    Manzanas & 10 & \$15 \\
+    Naranjas & 5  & \$8  \\
+    \midrule
+    \textbf{Total} & 15 & \$23 \\
+    \bottomrule
+    \end{tabular}
+\end{table}
+
+La opción \texttt{[ht]} indica que preferimos que LaTeX la ubique aquí (here)
+o en la parte superior (top) de la página.
+
+\subsection{Tabla en página separada (\texttt{[p]})}
+
+A veces, cuando la tabla es grande o queremos colocarla en 
+una hoja aparte, podemos usar \texttt{[p]}. Observa la 
+Tabla~\ref{tab:page}.
+
+\begin{table}[p]
+    \centering
+    \caption{Tabla colocada en una página de flotantes (\texttt{[p]})}
+    \label{tab:page}
+    \begin{tabular}{c c}
+    \toprule
+    \textbf{X} & \textbf{Y} \\
+    \midrule
+    1 & 2 \\
+    3 & 4 \\
+    5 & 6 \\
+    \bottomrule
+    \end{tabular}
+\end{table}
+
+Si el documento no es muy extenso, es posible que \LaTeX\ la sitúe 
+al final de tu archivo; de cualquier forma, quedará 
+\textbf{separada en una página para flotantes}.
+
+\subsection{Tips de Tablas Referenciadas}
+
+La versión más comúnmente aceptada de estilo para una tesis sugiere ubicar la tabla 
+en la parte superior (\emph{top}) de la página y colocar la leyenda (\emph{caption}) 
+arriba. De esta forma, el lector identifica inmediatamente el contenido de la tabla 
+sin necesidad de desplazar la mirada hacia abajo. A continuación, algunos consejos útiles:
+
+\begin{itemize}
+  \item Usa el posicionador \textbf{[t]}: Para indicar que tu tabla se ubique preferentemente 
+  en la parte superior de la página. Puedes reforzar esta preferencia con \texttt{[t!]} 
+  si deseas forzar aún más su ubicación.
+  
+  \item Coloca la \textbackslash caption antes del entorno \texttt{tabular}: Así 
+  garantizarás que la leyenda aparezca arriba de la tabla. Por ejemplo:
+  \begin{verbatim}
+  \begin{table}[t]
+      \caption{Tu leyenda aquí}
+      \label{tab:ejemplo}
+      \centering
+      \begin{tabular}{...}
+          ...
+      \end{tabular}
+  \end{table}
+  \end{verbatim}
+
+  \item Etiqueta y referencia (\textbackslash label y \textbackslash ref): 
+  Incluye el \texttt{\textbackslash label\{\}} dentro del entorno \texttt{table}, 
+  de preferencia justo después de \texttt{\textbackslash caption}. Luego, en tu texto, 
+  usa \texttt{Tabla~\textbackslash ref\{tab:ejemplo\}} para hacer referencia. 
+  Esto mantiene coherencia y facilita la actualización automática del número de tabla.
+
+  \item Cuida la consistencia en todo el documento: Si decides colocar todas 
+  las leyendas arriba de las tablas, sé consistente a lo largo de tu tesis. 
+  La homogeneidad contribuye a una mejor presentación.
+
+  \item Revisa los lineamientos de tu Comité Académico, en caso de no haberlos, decide la opción que te parezca más adecuada para tu trabajo, junto con tu asesor/a/e de tesis.
+
+
+  \item Evita saturar la tabla: Incluye únicamente los datos esenciales. Para 
+  información muy amplia, considera otros enfoques (p.ej., \texttt{longtable} para 
+  tablas que se extienden a varias páginas).
+
+  \item Usa paquetes útiles:
+    \begin{itemize}
+      \item \texttt{booktabs} para líneas horizontales de calidad (\texttt{\textbackslash toprule}, 
+      \texttt{\textbackslash midrule}, \texttt{\textbackslash bottomrule}).
+      \item \texttt{babel} (o \texttt{polyglossia}) para usar “Tabla” en lugar de “Table”.
+      \item \texttt{tabularx} o \texttt{tabu} para ajustar el ancho de columnas 
+      automáticamente.
+    \end{itemize}
+
+\end{itemize}
+
+En resumen, colocar la tabla en la parte superior de la página con la leyenda arriba 
+es una práctica estándar en muchos manuales de estilo para tesis, pero siempre revisa 
+las directrices específicas de tu institución o disciplina.
+
+
+\end{document}

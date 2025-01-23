@@ -1,0 +1,50 @@
+\documentclass[12pt]{article}
+
+% Paquetes necesarios
+\usepackage[spanish]{babel} % Para adaptar términos como "Figura"
+\usepackage{graphicx}       % Para insertar imágenes
+\usepackage{float}          % Para controlar la posición de los flotantes
+\usepackage{lipsum} 
+% Metadatos
+\title{Ejercicio de Imágenes en \LaTeX}
+\author{Tu Nombre}
+\date{\today}
+
+
+\begin{document}
+
+\maketitle
+
+
+
+\section{La imagen de los perritos}
+
+El \textbf{Efecto Clever Hans} debe su nombre a un famoso caballo de principios del siglo XX que supuestamente poseía habilidades matemáticas y de razonamiento casi humanas. Hans podía “responder” a preguntas golpeando el suelo con la pezuña para indicar números y soluciones, lo cual asombraba a la sociedad de su época. Su propietario, Wilhelm von Osten, defendía que el caballo era capaz de comprender y procesar la información, lo que planteaba todo un misterio sobre la inteligencia animal.
+
+\begin{figure}[h] % Colocación "aquí"
+    \centering
+    \includegraphics[width=0.5\textwidth]{dog1}
+    \caption{Imagen colocada en la posición \texttt{[h]} (aquí).}
+    \label{fig:h}
+\end{figure}
+
+
+\begin{figure}[t] % Colocación "aquí"
+    \centering
+    \includegraphics[width=\textwidth]{dog2}
+    \caption{Imagen colocada en la posición  del tope de página \texttt{[t]}.}
+    \label{fig:h}
+\end{figure}
+
+
+
+
+La verdad salió a la luz cuando el psicólogo Oskar Pfungst demostró que Hans no estaba resolviendo problemas matemáticos, sino que respondía a señales inconscientes de los espectadores y del propio entrenador. Las personas tendían a inclinarse o mostrar leves cambios en su lenguaje corporal cuando el número de pisadas estaba a punto de ser “correcto”. El caballo, al ver estas señales, dejaba de golpear el suelo y aparentaba “contestar” adecuadamente.
+
+Esta conclusión se convirtió en un importante precedente metodológico, ya que reveló lo fácil que es influir —incluso de manera involuntaria— en el comportamiento de un animal o de un participante en un experimento. En honor a Hans, se acuñó el término Efecto Clever Hans para describir cualquier situación en la que, sin querer, el experimentador emite pistas no verbales que el sujeto (animal o humano) utiliza para “acertar”, creando la ilusión de un entendimiento o habilidad que en realidad no existe.
+
+
+
+
+
+\end{document}

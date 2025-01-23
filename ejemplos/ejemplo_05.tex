@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}  % Ajuste de idioma
+\usepackage{csquotes}        % Manejo de comillas
+\usepackage[style=numeric]{biblatex}
+
+% En biblatex, se usa \addbibresource, no \bibliography
+\addbibresource{archivo_ejemplo.bib}
+
+\begin{document}
+
+\section{Introducción}
+
+En \LaTeX, podemos citar fácilmente con \texttt{biblatex}.
+Por ejemplo, cita narrativa:
+\cite{einstein1905} revolucionó la forma en que entendemos 
+el espacio y el tiempo. 
+
+O una cita parentética:
+La tipografía cambió desde \TeX \cite{knuth1984}.
+Podemos incluso citar dos fuentes al mismo tiempo \cite{einstein1905,latexproject}
+
+\section{Conclusión}
+
+ Para imprimir la bibliografía se usa \textbackslash printbibliography en biblatex:
+ 
+ 
+\printbibliography
+
+\end{document}

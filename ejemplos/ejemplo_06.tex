@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}  % or your preferred language
+\usepackage{csquotes}
+\usepackage[
+  style=authoryear,  % Choose a style, e.g., numeric, alphabetic, authoryear
+  backend=bibtex     % Use the BibTeX program (not Biber)
+]{biblatex}
+
+\addbibresource{archivo_ejemplo.bib} % Your .bib file
+
+\begin{document}
+
+\section{Introducción}
+
+Esta sección ilustra cómo citar con \texttt{biblatex} usando BibTeX 
+y el estilo \texttt{authoryear}.
+
+Cita narrativa: \textcite{einstein1905} revolucionó la física.
+
+Cita parentética: \parencite{knuth1984} sentó bases importantes 
+en la tipografía digital.
+
+Una manera de entender la electrodinámica es a través de las ecuaciones de Maxwell \parencite{einstein1905}. Pero para poder entenderla es necesario usar una buena tipografía, como la que propuso \cite{knuth1984} para el proyecto de \LaTeX \parencite{latexproject}.
+
+\section{Conclusión}
+
+Para imprimir la bibliografía con el estilo \texttt{authoryear}:
+\printbibliography
+
+\end{document}

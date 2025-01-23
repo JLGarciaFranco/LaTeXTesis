@@ -1,0 +1,155 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fancyhdr} % Paquete para encabezados y pies de página
+\usepackage{lipsum}
+\usepackage{graphicx}   % Para texto de ejemplo (puedes omitirlo)
+\usepackage[
+  style=authoryear,  % Choose a style, e.g., numeric, alphabetic, authoryear
+]{biblatex}
+\usepackage{booktabs} 
+%\usepackage[spanish]{babel}
+\addbibresource{archivo_ejemplo.bib}
+
+% Configuración de encabezados y pies
+\pagestyle{fancy}
+\fancyhf{} % Limpia los encabezados y pies
+\fancyhead[L]{UNAM - Escuela Nacional de Ciencias de la Tierra} % Encabezado izquierdo
+\fancyhead[R]{Proyecto de Tesis}          % Encabezado derecho
+\fancyfoot[C]{Página \thepage}            % Pie de página centrado
+
+\begin{document}
+
+% Crear la portada manualmente
+\begin{titlepage}
+    \begin{center}
+        \vspace*{2cm} % Espacio vertical inicial
+        {\Huge\bfseries Impacto del Cambio Climático en Ciclones Tropicales}\\[1cm]
+        {\Large Autor: Nombre del Estudiante}\\[0.5cm]
+        {\large Facultad de Ciencias, UNAM}\\[1cm]
+        {\large \today}
+    \end{center}
+    \vfill % Espacio flexible para alinear verticalmente
+    \begin{center}
+        {\small Documento académico para el curso de Física del Clima}
+    \end{center}
+\end{titlepage}
+
+
+
+\tableofcontents
+
+\listoffigures
+\listoftables
+
+\clearpage
+
+\section*{Introducción}
+
+Aquí inicia el contenido del documento. \lipsum[1]
+
+Esta sección ilustra cómo citar con \texttt{biblatex} usando BibTeX 
+y el estilo \texttt{authoryear}.
+
+Una manera de entender la electrodinámica es a través de las ecuaciones de Maxwell \cite{einstein1905}. Pero para poder entenderla es necesario usar una buena tipografía, como la que propuso \cite{knuth1984} para el proyecto de \LaTeX \cite{latexproject}.
+
+\section{Uso de flotantes con el entorno \texttt{figure}}
+
+En cambio el ambiente de \textbf{figure} sí es un objeto flotante, lo cuál trae consigo tres ventajas: la opción de incluir leyenda, la numeración continua y automatizada de las figuras y el poder hacer referencia a los objetos directamente a través de una etiqueta, o \textit{label}. 
+Veamos las diferentes opciones que nos proporciona \LaTeX{}. 
+
+El uso de los corchetes en el ambiente figura permite seleccionar algunas opciones, entre ellas podemos seleccionar qué regla preferencial queremos que escoja \LaTeX{} entre:
+
+\begin{itemize}
+\item $h$ aquí donde yo digo (\textit{here}). 
+\item $t$ en parte superior de la primer página disponible (\textit{top}). 
+\item $b$ en la parte inferior de la primer página disponible (\textit{bottom}). 
+\end{itemize}
+
+\subsection{Figura con opción \texttt{[h]}}
+
+
+
+\lipsum[4]
+
+\begin{figure}[h] % Colocación "aquí"
+    \centering
+    \includegraphics[width=0.5\textwidth]{example-image}
+    \caption{Imagen colocada en la posición \texttt{[h]} (aquí).}
+    \label{fig:h}
+\end{figure}
+
+La Figura \ref{fig:h} aparece donde está el código, ajustándose automáticamente al 50\% del ancho del texto.
+
+\lipsum[4]
+
+\subsection{Figura con opción \texttt{[b]}}
+
+\lipsum[4]
+
+\begin{figure}[b!] % Colocación en la parte inferior
+    \centering
+    \includegraphics[width=0.5\textwidth]{example-image}
+    \caption{Imagen colocada en la parte inferior de la página.}
+    \label{fig:b}
+\end{figure}
+
+
+\section{Tablas}
+
+En este documento verás distintos ejemplos de cómo insertar y 
+referenciar tablas en \LaTeX. Observa cómo la posición de las leyendas 
+(\emph{caption}), el uso de distintos \emph{layouts} y los parámetros 
+de flotación (\texttt{[h]}, \texttt{[t]}, \texttt{[b]}, \texttt{[p]}, \texttt{!}, etc.) 
+influyen en el resultado final.
+
+\subsection{Tabla con leyenda debajo (posición preferente \texttt{[ht]})}
+
+En la Tabla~\ref{tab:simple} se muestra un ejemplo sencillo en el que la 
+leyenda se coloca \textbf{debajo} de la tabla.
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{c|c|c}
+    \hline
+    \textbf{Columna 1} & \textbf{Columna 2} & \textbf{Columna 3} \\
+    \hline
+    A & B & C \\
+    D & E & F \\
+    \hline
+    \end{tabular}
+    \caption{Tabla sencilla con caption debajo}
+    \label{tab:simple}
+\end{table}
+
+Como ves, \LaTeX\ decide colocar la tabla cerca de este bloque de texto,
+pero siempre intentando no romper la composición de la página.
+
+\subsection{Tabla con leyenda arriba (forzando \texttt{[h!]})}
+
+La Tabla~\ref{tab:arriba} ilustra cómo poner la leyenda \textbf{encima} 
+de la tabla y además usar \texttt{[h!]} para forzar al máximo que aparezca 
+justo aquí:
+
+\begin{table}[h!]
+    \caption{Leyenda colocada arriba de la tabla}
+    \label{tab:arriba}
+    \centering
+    \begin{tabular}{l r}
+        \toprule
+        \textbf{Producto} & \textbf{Cantidad} \\
+        \midrule
+        Manzanas & 10 \\
+        Naranjas & 5 \\
+        Peras & 12 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Aunque uses \texttt{[h!]}, \LaTeX\ mantiene libertad de mover la tabla
+en caso de que no se ajuste bien a la página.
+
+%\addcontentsline{toc}{section}{Referencias}
+\printbibliography
+
+\end{document}

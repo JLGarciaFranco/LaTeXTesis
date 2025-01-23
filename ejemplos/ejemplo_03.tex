@@ -1,0 +1,176 @@
+\documentclass[12pt]{article}
+
+% Paquetes necesarios
+\usepackage[spanish]{babel} % Para adaptar términos como "Figura"
+\usepackage{graphicx}       % Para insertar imágenes
+\usepackage{float}          % Para controlar la posición de los flotantes
+\usepackage{lipsum} 
+% Metadatos
+\title{Ejemplo Completo de Imágenes en \LaTeX}
+\author{Tu Nombre}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+Este documento demuestra cómo trabajar con imágenes en \LaTeX{}, cubriendo desde inserciones básicas sin flotantes hasta el uso avanzado de tamaños relativos y absolutos. Además, exploraremos las opciones de posición \texttt{h}, \texttt{t}, \texttt{b} y \texttt{p} para controlar el comportamiento de las figuras.
+
+\section{Inserción básica de una imagen}
+Para incluir una imagen sin flotantes, se usa directamente el comando \texttt{\textbackslash includegraphics}. Esto no permite control de posición ni leyendas:
+
+\noindent
+\includegraphics[width=50mm]{example-image} % Reemplaza "example-image" con tu imagen
+
+Esta imagen no tiene leyenda y permanece fija donde se coloca.
+
+\section{Uso de flotantes con el entorno \texttt{figure}}
+
+En cambio el ambiente de \textbf{figure} sí es un objeto flotante, lo cuál trae consigo tres ventajas: la opción de incluir leyenda, la numeración continua y automatizada de las figuras y el poder hacer referencia a los objetos directamente a través de una etiqueta, o \textit{label}. 
+Veamos las diferentes opciones que nos proporciona \LaTeX{}. 
+
+El uso de los corchetes en el ambiente figura permite seleccionar algunas opciones, entre ellas podemos seleccionar qué regla preferencial queremos que escoja \LaTeX{} entre:
+
+\begin{itemize}
+\item $h$ aquí donde yo digo (\textit{here}). 
+\item $t$ en parte superior de la primer página disponible (\textit{top}). 
+\item $b$ en la parte inferior de la primer página disponible (\textit{bottom}). 
+\end{itemize}
+
+\subsection{Figura con opción \texttt{[h]}}
+
+
+
+\lipsum[4]
+
+\begin{figure}[h] % Colocación "aquí"
+    \centering
+    \includegraphics[width=0.5\textwidth]{example-image}
+    \caption{Imagen colocada en la posición \texttt{[h]} (aquí).}
+    \label{fig:h}
+\end{figure}
+
+La Figura \ref{fig:h} aparece donde está el código, ajustándose automáticamente al 50\% del ancho del texto.
+
+
+
+\subsection{Figura con opción \texttt{[b]}}
+
+\begin{figure}[b!] % Colocación en la parte inferior
+    \centering
+    \includegraphics[width=0.5\textwidth]{example-image}
+    \caption{Imagen colocada en la parte inferior de la página.}
+    \label{fig:b}
+\end{figure}
+
+\lipsum[8]
+
+La Figura \ref{fig:b} se coloca en la parte inferior de la página, lo cuál puede ser útil en algunos libros o tesis cuando queremos mantener alguna estructura del texto o la imagen se acopla mejor a esta opción. Sin embargo, es preferido por la mayoría el uso de $t$, ya que las imágenes en el tope de la página son más comunes en artículos y tesis. 
+
+
+\subsection{Figura con opción \texttt{[t]}}
+
+\lipsum[8]
+
+\begin{figure}[t] % Colocación en la parte superior
+    \centering
+    \includegraphics[width=0.5\textwidth]{example-image}
+    \caption{Imagen colocada en la parte superior de la página.}
+    \label{fig:t}
+\end{figure}
+
+
+
+La Figura \ref{fig:t} flota hacia la parte superior de la página, manteniendo un diseño limpio.
+
+
+
+
+\lipsum[8]
+
+
+\subsection{Figura en una página separada con \texttt{[p]}}
+
+\lipsum[8]
+
+\begin{figure}[p] % Página separada
+    \centering
+    \includegraphics[width=\textwidth]{example-image}
+    \caption{Imagen colocada en una página exclusiva para flotantes.}
+    \label{fig:p}
+\end{figure}
+
+La Figura \ref{fig:p} se mueve a una página independiente, ideal para figuras grandes o importantes.
+
+\section{Ajuste del tamaño de imágenes}
+
+\lipsum[8]
+
+\subsection{Tamaños relativos con \texttt{\textbackslash textwidth}}
+
+El comando de \texttt{\textbackslash textwidth} es una propiedad interna de cada documento que hace referencia al ancho, en unidades de distancia [$m$, $cm$, $in$], de la página. De esta manera, podemos determinar el tamaño de nuestras figuras como una fracción o proporción del ancho del texto. 
+
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=0.3\textwidth]{example-image}
+    \caption{Imagen ajustada al 30\% del ancho del texto.}
+    \label{fig:textwidth-30}
+\end{figure}
+
+
+\lipsum[8]
+
+La Figura \ref{fig:textwidth-30} está en una página separada exclusivamente para flotantes, con un tamaño reducido al 30\% del ancho del texto.
+
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.7\textwidth]{example-image}
+    \caption{Imagen ajustada al 70\% del ancho del texto.}
+    \label{fig:textwidth-70}
+\end{figure}
+
+\lipsum[8]
+
+La Figura \ref{fig:textwidth-70} está en el tope de la siguiente página disponible, con un tamaño reducido al 70\% del ancho del texto.
+
+\subsection{Tamaños absolutos con mm y cm}
+
+\lipsum[8]
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=50mm]{example-image}
+    \caption{Imagen con un ancho de 50 mm.}
+    \label{fig:50mm}
+\end{figure}
+
+\lipsum[8]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[height=4cm]{example-image}
+    \caption{Imagen con una altura de 4 cm.}
+    \label{fig:4cm}
+\end{figure}
+
+\lipsum[8]
+
+\section{Comparación de tamaños}
+
+\lipsum[8]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.3\textwidth]{example-image}
+    \includegraphics[width=0.6\textwidth]{example-image}
+    \includegraphics[width=0.9\textwidth]{example-image}
+    \caption{Imágenes ajustadas al 30\%, 60\% y 90\% del ancho del texto.}
+    \label{fig:comparacion}
+\end{figure}
+
+\section{Conclusión}
+Este documento demuestra cómo insertar, posicionar y ajustar imágenes en \LaTeX{} utilizando el entorno \texttt{figure}, las opciones de flotantes, y el ajuste de tamaños con \texttt{\textbackslash textwidth}, mm y cm. Estas herramientas ofrecen flexibilidad para tener documentos largos con figuras flotando alrededor de un texto, donde el usuario no se tiene que preocupar por la posición de las figuras en ningún momento. 
+
+
+\end{document}
