@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Uso de flotantes con el entorno \texttt {figure}}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Figura con opción \texttt {[h]}}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Figura con opción \texttt {[b]}}{3}{}%
+\contentsline {section}{\numberline {2}Tablas}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Tabla con leyenda debajo (posición preferente \texttt {[ht]})}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Tabla con leyenda arriba (forzando \texttt {[h!]})}{5}{}%

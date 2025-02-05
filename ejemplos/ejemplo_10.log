@@ -1,0 +1,876 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2025.1.18)  4 FEB 2025 20:18
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./ejemplo_10.tex
+(ejemplo_10.tex
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/base/size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/01/07 v5.1.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip51
+\f@nch@offset@elh=\skip52
+\f@nch@offset@erh=\skip53
+\f@nch@offset@olh=\skip54
+\f@nch@offset@orh=\skip55
+\f@nch@offset@elf=\skip56
+\f@nch@offset@erf=\skip57
+\f@nch@offset@olf=\skip58
+\f@nch@offset@orf=\skip59
+\f@nch@height=\skip60
+\f@nch@footalignment=\skip61
+\f@nch@widthL=\skip62
+\f@nch@widthC=\skip63
+\f@nch@widthR=\skip64
+\@temptokenb=\toks19
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/lipsum/lipsum.sty
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/l3packages/l3keys2e/l3keys2e.
+sty (/home/jorgelsgf/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-12-25 L3 programming layer (loader) 
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.de
+f
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count270
+\l__pdf_internal_box=\box52
+))
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count271
+\l__lipsum_a_int=\count272
+\l__lipsum_b_int=\count273
+ (/home/jorgelsgf/.miktex/texmfs/install/tex/latex/lipsum/lipsum.ltd.tex))
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen144
+\lightrulewidth=\dimen145
+\cmidrulewidth=\dimen146
+\belowrulesep=\dimen147
+\belowbottomsep=\dimen148
+\aboverulesep=\dimen149
+\abovetopsep=\dimen150
+\cmidrulesep=\dimen151
+\cmidrulekern=\dimen152
+\defaultaddspace=\dimen153
+\@cmidla=\count274
+\@cmidlb=\count275
+\@aboverulesep=\dimen154
+\@belowrulesep=\dimen155
+\@thisruleclass=\count276
+\@lastruleclass=\count277
+\@thisrulewidth=\dimen156
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen157
+\WF@size=\dimen158
+\c@WF@wrappedlines=\count278
+\WF@box=\box53
+\WF@everypar=\toks21
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen159
+\captionmargin=\dimen160
+\caption@leftmargin=\dimen161
+\caption@rightmargin=\dimen162
+\caption@width=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count279
+\c@continuedfloat=\count280
+Package caption Info: wrapfig package is loaded.
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip65
+\multirow@cntb=\count281
+\multirow@dima=\skip66
+\bigstrutjot=\dimen167
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen168
+\ar@mcellbox=\box54
+\extrarowheight=\dimen169
+\NC@list=\toks22
+\extratabsurround=\skip67
+\backup@length=\skip68
+\ar@cellbox=\box55
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/graphics/color.sty
+Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx))
+\everycr=\toks23
+\minrowclearance=\skip69
+\rownum=\count282
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count283
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count284
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+LaTeX Info: Redefining \color on input line 762.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/fourier/fourier.sty
+Package: fourier 2024/09/08 2.4 fourier-GUTenberg package
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+Now handling font encoding FML ...
+... no UTF-8 mapping file for font encoding FML
+Now handling font encoding FMS ...
+... no UTF-8 mapping file for font encoding FMS
+Now handling font encoding FMX ...
+... no UTF-8 mapping file for font encoding FMX
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+futs on input line 1
+16.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/fourier/t1futs.fd
+File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
+))
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/fourier/fourier-orns.sty
+Package: fourier-orns 2024/09/08 2.4 fourier-ornaments package
+)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 64.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 64.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> T1/futs/m/n on input line 64.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 64.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/m/n on input line 64.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 65.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 73.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `normal' on input line 73.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> FML/futmi/m/it on input line 73.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `bold' on input line 73.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> FML/futmi/m/it on input line 73.
+\symotherletters=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 75.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
+(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 87.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 127.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 127.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> FMS/futm/m/n on input line 127.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 127.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> FMS/futm/m/n on input line 127.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 128.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 128.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 128
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 128.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 129.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 129.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 130.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 131.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/futs/m/it on input line 131.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/futs/m/it on input line 131.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \parallel on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 201.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 224.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 229.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 239.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 241.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 243.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 245.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 247.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 249.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 251.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 253.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 255.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 257.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 261.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 262.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 263.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 264.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 265.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 266.
+LaTeX Font Info:    Redeclaring math accent \check on input line 267.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 268.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 269.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 270.
+\symUfutm=\mathgroup5
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/tex-gyre/tgpagella.sty
+Package: tgpagella 2009/09/27 v1.2 TeX Gyre Pagella as default roman family
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)))
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/tex-gyre/tgheros.sty
+Package: tgheros 2009/09/27 v1.2 TeX Gyre Heros as default sans serif family
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/inconsolata/inconsolata.sty
+Package: inconsolata 2019/05/17 v1.12
+
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex
+(/home/jorgelsgf/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
+)
+\XKV@depth=\count285
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\zifour@ocount=\count286
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 22.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  T1/futs/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Encoding `FML' has changed to `OML' for symbol font
+(Font)              `letters' in the math version `normal' on input line 23.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  FML/futmi/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Encoding `FMS' has changed to `OMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 24.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  FMS/futm/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Encoding `FMX' has changed to `OMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 2
+5.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  FMX/futm/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 26.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/futs/b/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Encoding `FML' has changed to `OML' for symbol font
+(Font)              `letters' in the math version `bold' on input line 27.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  FML/futmi/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Encoding `FMS' has changed to `OMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  FMS/futm/m/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Encoding `FMX' has changed to `OMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 29.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  FMX/futm/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  T1/futs/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  T1/futs/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  T1/futs/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  T1/futs/m/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/libertinus/libertinus.sty
+Package: libertinus 2020/05/06 v. 0.02 (Herbert Voss) Supports libertinus fonts
+ for pdflatex/lualatex/xelatex
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/libertinus-type1/libertinus-t
+ype1.sty
+Package: libertinus-type1 2025/01/06 (Bob Tennent) Supports libertinus fonts fo
+r latex/pdflatex.
+ (/home/jorgelsgf/.miktex/texmfs/install/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (/home/jorgelsgf/.miktex/texmfs/install/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+6.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)))
+LaTeX Font Info:    Trying to load font information for T1+LibertinusSerif-TLF 
+on input line 33.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/libertinus-type1/T1Libertinus
+Serif-TLF.fd
+File: T1LibertinusSerif-TLF.fd 2024/09/22 (autoinst) Font definitions for T1/Li
+bertinusSerif-TLF.
+)
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 33.
+ (ejemplo_10.aux)
+\openout1 = `ejemplo_10.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 33.
+LaTeX Font Info:    Trying to load font information for FML+futm on input line 
+33.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/fourier/fmlfutm.fd
+File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
+)
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 33.
+LaTeX Font Info:    Trying to load font information for FMS+futm on input line 
+33.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/fourier/fmsfutm.fd
+File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
+)
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 33.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
+33.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/fourier/fmxfutm.fd
+File: fmxfutm.fd futm-extension
+)
+LaTeX Font Info:    ... okay on input line 33.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count287
+\scratchdimen=\dimen170
+\scratchbox=\box56
+\nofMPsegments=\count288
+\nofMParguments=\count289
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count290
+\MPscratchDim=\dimen171
+\MPnumerator=\count291
+\makeMPintoPDFobject=\count292
+\everyMPtoPDFconversion=\toks27
+)
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.st
+y
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+ (/home/jorgelsgf/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+\c@mv@tabular=\count293
+\c@mv@boldtabular=\count294
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 24.88pt on input line 39.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
+(Font)              scaled to size 24.88pt on input line 39.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 40.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 41.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 46.
+
+
+[1
+
+{/home/jorgelsgf/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/jorgels
+gf/.miktex/texmfs/install/fonts/enc/dvips/libertinus-type1/lbn1_sfissr.enc}{/ho
+me/jorgelsgf/.miktex/texmfs/install/fonts/enc/dvips/libertinus-type1/lbn1_75t36
+g.enc}]
+<dog1.jpg, id=7, 737.75626pt x 783.92876pt>
+File: dog1.jpg Graphic file (type jpg)
+<use dog1.jpg>
+Package pdftex.def Info: dog1.jpg  used on input line 56.
+(pdftex.def)             Requested size: 117.00119pt x 124.31871pt.
+<dog2.jpeg, id=8, 3011.25pt x 2007.5pt>
+File: dog2.jpeg Graphic file (type jpg)
+<use dog2.jpeg>
+Package pdftex.def Info: dog2.jpeg  used on input line 63.
+(pdftex.def)             Requested size: 117.00119pt x 77.98892pt.
+<Leonardo.jpg, id=9, 1284.8pt x 722.7pt>
+File: Leonardo.jpg Graphic file (type jpg)
+<use Leonardo.jpg>
+Package pdftex.def Info: Leonardo.jpg  used on input line 70.
+(pdftex.def)             Requested size: 117.00119pt x 65.81212pt.
+
+Overfull \hbox (11.91324pt too wide) in paragraph at lines 78--79
+[]\T1/LibertinusSerif-TLF/m/n/12 Para referenciar este entorno con 3 figuras, p
+odemos llamar a la Figura principal,
+ []
+
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
+(Font)              scaled to size 17.28pt on input line 80.
+LaTeX Font Info:    Trying to load font information for T1+LibertinusMono-TLF o
+n input line 80.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/libertinus-type1/T1Libertinus
+Mono-TLF.fd
+File: T1LibertinusMono-TLF.fd 2025/01/11 (autoinst) Font definitions for T1/Lib
+ertinusMono-TLF.
+)
+LaTeX Font Info:    Font shape `T1/LibertinusMono-TLF/b/n' will be
+(Font)              scaled to size 14.6881pt on input line 80.
+LaTeX Font Info:    Font shape `T1/LibertinusMono-TLF/m/n' will be
+(Font)              scaled to size 10.20007pt on input line 82.
+
+Overfull \hbox (8.38042pt too wide) in paragraph at lines 82--83
+\T1/LibertinusSerif-TLF/m/n/12 El entorno \T1/LibertinusMono-TLF/m/n/12 wrapfig
+ure \T1/LibertinusSerif-TLF/m/n/12 es útil para insertar figuras rodeadas de te
+xto, permitiendo
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+LibertinusSerif-TLF
+ on input line 86.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/libertinus-type1/TS1Libertinu
+sSerif-TLF.fd
+File: TS1LibertinusSerif-TLF.fd 2024/09/22 (autoinst) Font definitions for TS1/
+LibertinusSerif-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 86.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 86.
+LaTeX Font Info:    Font shape `T1/LibertinusMono-TLF/b/n' will be
+(Font)              scaled to size 10.20007pt on input line 88.
+
+
+Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
+(lipsum)                'english' will be used instead.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[1{/home/jorgelsgf/.miktex/texmfs/install/fonts/enc/dvips/libertinus-type1/lbn1
+_or3pzs.enc}{/home/jorgelsgf/.miktex/texmfs/install/fonts/enc/dvips/libertinus-
+type1/lbn1_rlktsf.enc} <./dog1.jpg> <./dog2.jpeg> <./Leonardo.jpg>]
+File: dog1.jpg Graphic file (type jpg)
+<use dog1.jpg>
+Package pdftex.def Info: dog1.jpg  used on input line 97.
+(pdftex.def)             Requested size: 117.00119pt x 124.31871pt.
+
+
+Package lipsum Warning: Unknown language 'english'. Hyphenation patterns for
+(lipsum)                'english' will be used instead.
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 103--103
+\T1/LibertinusSerif-TLF/m/n/12 nibh. Morbi vel justo vitae lacus tincidunt
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 103--103
+\T1/LibertinusSerif-TLF/m/n/12 Nunc elementum fermentum wisi. Aenean
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 103--103
+\T1/LibertinusSerif-TLF/m/n/12 placerat. Ut imperdiet, enim sed gravida
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 106--107
+\T1/LibertinusSerif-TLF/m/n/12 El siguiente ejemplo muestra una tabla con
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+10.
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+10.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+110.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+110.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 110.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 110.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 110.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 110.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 110.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 110.
+
+
+Package lipsum Warning: Unknown language 'english'. Hyphenation patterns for
+(lipsum)                'english' will be used instead.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
+
+Package lipsum Warning: Unknown language 'english'. Hyphenation patterns for
+(lipsum)                'english' will be used instead.
+
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 141.
+LaTeX Font Info:    Trying to load font information for T1+XCharter-TLF on inpu
+t line 143.
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/xcharter/T1XCharter-TLF.fd
+File: T1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T1/XCharter-
+TLF.
+)
+
+Package lipsum Warning: Unknown language 'english'. Hyphenation patterns for
+(lipsum)                'english' will be used instead.
+
+
+Overfull \hbox (8.53035pt too wide) in paragraph at lines 145--146
+\T1/XCharter-TLF/m/n/12 magna. Donec vehicula augue eu neque. Pellentesque habi
+tant morbi tristique
+ []
+
+
+Package lipsum Warning: Unknown language 'english'. Hyphenation patterns for
+(lipsum)                'english' will be used instead.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3{/home/jorgelsgf/.miktex/texmfs/install/fonts/enc/dvips/xcharter/xch_rydp4l.e
+nc}{/home/jorgelsgf/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ec.enc}]
+LaTeX Font Info:    Trying to load font information for T1+LibertinusSans-TLF o
+n input line 155.
+
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/libertinus-type1/T1Libertinus
+Sans-TLF.fd
+File: T1LibertinusSans-TLF.fd 2024/09/22 (autoinst) Font definitions for T1/Lib
+ertinusSans-TLF.
+)
+LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 155.
+
+
+Package lipsum Warning: Unknown language 'english'. Hyphenation patterns for
+(lipsum)                'english' will be used instead.
+
+
+Package lipsum Warning: Unknown language 'english'. Hyphenation patterns for
+(lipsum)                'english' will be used instead.
+
+LaTeX Font Info:    Trying to load font information for T1+put on input line 17
+1.
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/psnfss/t1put.fd
+File: t1put.fd 2001/06/04 font definitions for T1/put.
+)
+Overfull \hbox (14.54675pt too wide) in paragraph at lines 171--172
+[]\T1/put/m/n/12 Aquí el texto comienza con la fuente \T1/put/b/n/12 Utopia\T1/
+put/m/n/12 , que es una opción moderna
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+qpl on input line 17
+3.
+(/home/jorgelsgf/.miktex/texmfs/install/tex/latex/tex-gyre/t1qpl.fd
+File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
+)
+
+Package lipsum Warning: Unknown language 'english'. Hyphenation patterns for
+(lipsum)                'english' will be used instead.
+
+
+Overfull \hbox (30.26672pt too wide) in paragraph at lines 173--174
+[]\T1/qpl/m/n/12 Luego cambiamos a \T1/qpl/b/n/12 TeX Gyre Pagella\T1/qpl/m/n/1
+2 , una fuente serif elegante y ligeramente
+ []
+
+
+Overfull \hbox (2.34355pt too wide) in paragraph at lines 173--174
+\T1/qpl/m/n/12 vestibulum urna fringilla ultrices. Phasellus eu tellus sit amet
+ tortor gravida
+ []
+
+
+Overfull \hbox (13.6204pt too wide) in paragraph at lines 173--174
+\T1/qpl/m/n/12 placerat. Integer sapien est, iaculis in, pretium quis, viverra 
+ac, nunc. Praesent
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4{/home/jorgelsgf/.miktex/texmfs/install/fonts/enc/dvips/libertinus-type1/lbn1
+_mfadfl.enc}{/home/jorgelsgf/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc
+}{/home/jorgelsgf/.miktex/texmfs/install/fonts/enc/dvips/tex-gyre/q-ec.enc}]
+
+Package lipsum Warning: Unknown language 'english'. Hyphenation patterns for
+(lipsum)                'english' will be used instead.
+
+
+Overfull \hbox (24.61865pt too wide) in paragraph at lines 175--176
+\T1/lmr/m/n/12 consectetuer id, vulputate a, magna. Donec vehicula augue eu neq
+ue. Pellentesque
+ []
+
+
+Overfull \hbox (5.58784pt too wide) in paragraph at lines 175--176
+\T1/lmr/m/n/12 placerat. Integer sapien est, iaculis in, pretium quis, viverra 
+ac, nunc. Praesent
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+LibertineT on input 
+line 177.
+LaTeX Font Info:    No file T1LibertineT.fd. on input line 177.
+
+LaTeX Font Warning: Font shape `T1/LibertineT/m/n' undefined
+(Font)              using `T1/cmr/m/n' instead on input line 177.
+
+LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 180.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5] (ejemplo_10.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6853 strings out of 475473
+ 128713 string characters out of 5766636
+ 581484 words of memory out of 5000000
+ 29632 multiletter control sequences out of 15000+600000
+ 666354 words of font info for 93 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 79i,12n,93p,294b,566s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/jorgelsgf/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm
+1200.pk></home/jorgelsgf/.miktex/texmfs/install/fonts/type1/public/libertinus-t
+ype1/LibertinusMono-Bold.pfb></home/jorgelsgf/.miktex/texmfs/install/fonts/type
+1/public/libertinus-type1/LibertinusMono-Regular.pfb></home/jorgelsgf/.miktex/t
+exmfs/install/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb></hom
+e/jorgelsgf/.miktex/texmfs/install/fonts/type1/public/libertinus-type1/Libertin
+usSans-Regular.pfb></home/jorgelsgf/.miktex/texmfs/install/fonts/type1/public/l
+ibertinus-type1/LibertinusSerif-Bold.pfb></home/jorgelsgf/.miktex/texmfs/instal
+l/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb></home/jorgel
+sgf/.miktex/texmfs/install/fonts/type1/public/xcharter/XCharter-Roman.pfb></hom
+e/jorgelsgf/.miktex/texmfs/install/fonts/type1/public/lm/lmr12.pfb></home/jorge
+lsgf/.miktex/texmfs/install/fonts/type1/adobe/utopia/putb8a.pfb></home/jorgelsg
+f/.miktex/texmfs/install/fonts/type1/adobe/utopia/putr8a.pfb></home/jorgelsgf/.
+miktex/texmfs/install/fonts/type1/public/tex-gyre/qplb.pfb></home/jorgelsgf/.mi
+ktex/texmfs/install/fonts/type1/public/tex-gyre/qplr.pfb>
+Output written on ejemplo_10.pdf (6 pages, 1759229 bytes).
+PDF statistics:
+ 119 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+
